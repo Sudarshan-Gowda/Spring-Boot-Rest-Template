@@ -37,6 +37,68 @@ File -> Import -> Maven -> Existing Maven project
 1) Run the Application by using CLI, <br> `mvn spring-boot:run`
 2) Test the API by using Rest API Testing tool.
 
+<br>
+<b>Find the exposed restfull APIS as below</b>
+a. To get the list of employees <br>
+http://localhost:8080/employees <br>
+
+b. To fetch the employee by id <br>
+http://localhost:8080/employees/1 <br>
+
+c. To create the employee record <br>
+http://localhost:8080/employees   <br>
+ ``
+ {
+        "empId": 1,
+        "empName": "Sudarshan",
+        "empDept": "PD",
+        "empSalary": 1234567
+ }``
+ 
+ d. To update the employee record <br>
+ http://localhost:8080/employees <br>
+ ``{
+        "empId": 1,
+        "empName": "Sudarshan",
+        "empDept": "PD",
+        "empSalary": 1234567
+ }``
+ 
+ e. To delete the employee record <br>
+ http://localhost:8080/template/employees/1  <br>
+ 
+ 
+ <b>Find the Consuming restfull APIS as below</b>
+
+a. To get the list of employees <br>
+http://localhost:8080/template/employees <br>
+
+b. To fetch the employee by id <br>
+http://localhost:8080/template/employees/1 <br>
+
+c. To create the employee record <br>
+http://localhost:8080/template/employees   <br>
+ ``
+ {
+        "empId": 1,
+        "empName": "Sudarshan",
+        "empDept": "PD",
+        "empSalary": 1234567
+ }``
+ 
+ d. To update the employee record <br>
+ http://localhost:8080/template/employees <br>
+ ``{
+        "empId": 1,
+        "empName": "Sudarshan",
+        "empDept": "PD",
+        "empSalary": 1234567
+ }``
+ 
+ e. To delete the employee record <br>
+ http://localhost:8080/template/employees/1  <br>
+ 
+ 
    
 # Contributing
 
