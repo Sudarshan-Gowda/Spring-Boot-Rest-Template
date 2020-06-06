@@ -41,7 +41,7 @@ The following items should be installed in your system:
 
 1) Download this Project and do maven import.
 ```
-git clone https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Template
+git clone https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Template.git
 ```
 2) To Import the Praject Using STS or Eclipse
 ```
